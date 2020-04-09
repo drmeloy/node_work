@@ -4,7 +4,7 @@
   "description": "- Modules you create yourself via exports\r   - Modules that come natively, such as fs, http\r   - NPM package",
   "main": "script.js",
   "scripts": {
-    "start": "nodemon"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
