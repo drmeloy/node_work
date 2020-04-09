@@ -1,0 +1,24 @@
+{
+  "name": "node_work",
+  "version": "1.0.0",
+  "description": "- Modules you create yourself via exports\r   - Modules that come natively, such as fs, http\r   - NPM package",
+  "main": "script.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drmeloy/node_work.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drmeloy/node_work/issues"
+  },
+  "homepage": "https://github.com/drmeloy/node_work#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
