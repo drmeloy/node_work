@@ -4,7 +4,7 @@
   "description": "- Modules you create yourself via exports\r   - Modules that come natively, such as fs, http\r   - NPM package",
   "main": "script.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon expressServer.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,9 @@
     "url": "https://github.com/drmeloy/node_work/issues"
   },
   "homepage": "https://github.com/drmeloy/node_work#readme",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.17.1"
+  },
   "devDependencies": {
     "nodemon": "^2.0.3"
   }
