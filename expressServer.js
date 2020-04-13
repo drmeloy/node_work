@@ -7,10 +7,23 @@ app.use((req, res, next) => {
   next();
 });
 
+app.use(express.urlencoded({ extended: false }))
+app.use(express.json())
+
 app.get('/', (req, res) => {
   const user = { name: 'Sally', hobby: 'Soccer' };
   
   res.send(user)
+});
+
+app.get('/profile', (req, res) => {
+  res.send('getting profile');
+});
+
+app.post('/profile', (req, res) => {
+  console.log(req.body);
+  
+  res.send(req.body);
 });
 
 app.listen(3000);
