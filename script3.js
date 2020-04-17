@@ -7,3 +7,7 @@ fs.readFile('./hello.txt', (err, data) => {
 
 const file = fs.readFileSync('./hello.txt');
 console.log('2', file.toString());
+
+fs.appendFile('./hello.txt', ' General Kenobi', err => {
+  if (err) console.log(err);
+});
