@@ -14,7 +14,7 @@ for(let i = 0; i < instructions.length; i++){
   if(neverUnderground === true && floor < 0){
     basement = i + 1;
     neverUnderground = false;
-  };
+  }; 
 };
 
 console.log(floor);
